@@ -1,0 +1,49 @@
+[
+  {
+    "id": "tx_001",
+    "amount": "100.50",
+    "currency": "USD",
+    "timestamp": "2025-03-10 14:22:00",
+    "status": "completed",
+    "type": "debit"
+  },
+  {
+    "transaction_id": 204,
+    "total": 250,
+    "currency_code": "usd",
+    "created_at": "10/03/2025 14:22",
+    "state": "OK",
+    "method": "credit"
+  },
+  {
+    "ref": "A-77",
+    "amount": "€99,99",
+    "date": "2025-03-10T14:22:00Z",
+    "result": "success",
+    "source": "transfer"
+  },
+  {
+    "id": "tx_004",
+    "amount": "45.00",
+    "currency": "GBP",
+    "timestamp": "2025-03-11 09:00:00",
+    "status": "pending",
+    "type": "debit"
+  },
+  {
+    "id": "tx_005",
+    "amount": "1500.75",
+    "currency": "EUR",
+    "timestamp": "fecha-invalida",
+    "status": "failed",
+    "type": "credit"
+  },
+  {
+    "id": "tx_006",
+    "amount": "99999.99",
+    "currency": "USD",
+    "timestamp": "2025-03-12 10:00:00",
+    "status": "completed",
+    "type": "transfer"
+  }
+]
