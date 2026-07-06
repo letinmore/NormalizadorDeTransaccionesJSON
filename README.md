@@ -68,7 +68,7 @@ monto con más de 4 cifras enteras, fecha inválida, etc.).
   `normalize_timestamp`, `normalize_status`, `normalize_source`, etc.)
   son funciones puras, independientes de la interfaz gráfica, lo que
   facilita probarlas por separado (ver ejemplo de prueba manual más abajo).
-- Todo el manejo de archivos y parsing de JSON está envuelto en
+- Todo el manejo de archivos y parsing de JSON está dentro de bloques
   `try/except`, mostrando siempre mensajes de error amigables mediante
   `messagebox`.
 - El registro de actividad (carga de archivo, selección de campos,
